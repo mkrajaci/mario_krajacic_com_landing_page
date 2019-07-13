@@ -1,2 +1,8 @@
 Tutorial:
-https://youtu.be/qDwdMDQ8oX4
+https://youtu.be/1PkNiYlkkjo
+
+Bootstrap:
+https://getbootstrap.com/docs/4.1/getting-started/introduction/
+
+Snippets:
+https://github.com/CoreyMSchafer/code_snippets/tree/master/Django_Blog/snippets
