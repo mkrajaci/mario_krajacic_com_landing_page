@@ -1,5 +1,5 @@
 Tutorial:
-https://youtu.be/q4jPR-M0TAQ
+https://youtu.be/3aVqWaLjqS4
 
 Bootstrap:
 https://getbootstrap.com/docs/4.1/getting-started/introduction/
@@ -9,3 +9,5 @@ https://github.com/CoremayMSchafer/code_snippets/tree/master/Django_Blog/snippet
 
 Datetime filter:
 https://docs.djangoproject.com/en/2.2/ref/templates/builtins/#date
+
+Crispy forms

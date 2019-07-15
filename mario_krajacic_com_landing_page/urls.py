@@ -15,9 +15,12 @@ Including another URLconf
 """
 from django.contrib import admin
 from django.urls import path, include
+from users import views as user_views
 
 # Glavne putanje po stranici
 urlpatterns = [
     path('admin/', admin.site.urls),
+    # Ovako dodajem putanju u izdvojenoj aplikaciji, gore obavezan import iz te aplikacije
+    path('register/', user_views.register, name='register'),
     path('', include('homepage.urls')),
 ]
