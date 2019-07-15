@@ -1,8 +1,11 @@
 Tutorial:
-https://youtu.be/1PkNiYlkkjo
+https://youtu.be/q4jPR-M0TAQ
 
 Bootstrap:
 https://getbootstrap.com/docs/4.1/getting-started/introduction/
 
 Snippets:
-https://github.com/CoreyMSchafer/code_snippets/tree/master/Django_Blog/snippets
+https://github.com/CoremayMSchafer/code_snippets/tree/master/Django_Blog/snippets
+
+Datetime filter:
+https://docs.djangoproject.com/en/2.2/ref/templates/builtins/#date

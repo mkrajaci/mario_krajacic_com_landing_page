@@ -1,20 +1,6 @@
 from django.shortcuts import render
+from .models import Post
 from django.http import HttpResponse
-
-posts = [
-    {
-        'author': 'Mario',
-        'title': 'Blog post 1',
-        'content': 'First content',
-        'date_posted': 'July 12, 2019',
-    },
-    {
-        'author': 'Marija',
-        'title': 'Blog post 2',
-        'content': 'Second content',
-        'date_posted': 'July 13, 2019',
-    }
-]
 
 
 # Create your views here.
@@ -28,7 +14,7 @@ def about(request):
 
 def blog(request):
     context = {
-        'posts': posts
+        'posts': Post.objects.all()
     }
     return render(request, 'homepage/blog.html', context)  # Kroz context šalješ na frontu varijable
 
