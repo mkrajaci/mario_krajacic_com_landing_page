@@ -1,5 +1,5 @@
 from django.urls import path
-from .views import PostListView, PostDetailView
+from .views import PostListView, PostDetailView, PostCreateView, PostUpdateView, PostDeleteView
 from . import views
 
 urlpatterns = [
@@ -8,5 +8,8 @@ urlpatterns = [
     path('blog/', PostListView.as_view(), name='homepage-blog'),
     # int:pk ogranicavam na integer, u slucaju da dodje string
     path('blog/post/<int:pk>/', PostDetailView.as_view(), name='post-detail'),
+    path('blog/post/new/', PostCreateView.as_view(), name='post-create'),
+    path('blog/post/<int:pk>/update/', PostUpdateView.as_view(), name='post-update'),
+    path('blog/post/<int:pk>/delete/', PostDeleteView.as_view(), name='post-delete'),
     path('projects/', views.projects, name='homepage-projects'),
 ]
