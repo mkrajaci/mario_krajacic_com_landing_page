@@ -15,6 +15,7 @@ class PostListView(ListView):
     context_object_name = 'posts'
     # Promjena redosljeda postova
     ordering = ['-date_posted']
+    paginate_by = 5
 
 
 class PostDetailView(DetailView):
