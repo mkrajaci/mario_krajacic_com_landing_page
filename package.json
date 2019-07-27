@@ -1,0 +1,23 @@
+{
+  "name": "mario_krajacic_com_landing_page",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "build:css": "tailwind build src/style.css -o homepage/static/homepage/style.css"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/mkrajaci/mario_krajacic_com_landing_page.git"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/mkrajaci/mario_krajacic_com_landing_page/issues"
+  },
+  "homepage": "https://github.com/mkrajaci/mario_krajacic_com_landing_page#readme",
+  "dependencies": {
+    "tailwindcss": "^1.0.5"
+  }
+}
