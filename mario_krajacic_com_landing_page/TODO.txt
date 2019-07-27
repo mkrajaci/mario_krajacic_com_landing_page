@@ -1,8 +1,11 @@
 Tutorial:
 https://youtu.be/Sa_kQheCnds
+https://www.youtube.com/watch?v=UBOj6rqRUME&t=858s
 
-Bootstrap:
-https://getbootstrap.com/docs/4.1/getting-started/introduction/
+Tailwind:
+https://timonweb.com/posts/django-tailwind-css/
+https://pypi.org/project/django-tailwind/
+
 
 Snippets:
 https://github.com/CoremayMSchafer/code_snippets/tree/master/Django_Blog/snippets
