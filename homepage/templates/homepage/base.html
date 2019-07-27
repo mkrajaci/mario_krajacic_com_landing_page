@@ -17,8 +17,15 @@
 </head>
 <body>
 <nav class="flex items-center justify-between flex-wrap bg-blue-300">
-    <img width="60" src="../static/pictures/logo.png"/>
-    <a class="" href="{% url 'homepage-home' %}">Django Blog</a>
+    <a class="" href="{% url 'homepage-home' %}">mariokrajacic.com</a>
+    <div class="border-collapse">
+        <a class="nav-item nav-link" href="{% url 'homepage-home' %}">Home</a>
+        <a class="nav-item nav-link" href="{% url 'homepage-projects' %}">Projects</a>
+        <a class="nav-item nav-link" href="{% url 'homepage-blog' %}">Blog</a>
+        <a class="nav-item nav-link" href="{% url 'homepage-about' %}">About</a>
+    </div>
+
+</nav>
     <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarToggle"
             aria-controls="navbarToggle" aria-expanded="false" aria-label="Toggle navigation">
         <span class="navbar-toggler-icon"></span>
@@ -42,7 +49,6 @@
             {% endif %}
         </div>
     </div>
-</nav>
 <main role="main" class="container">
     <div class="row">
         <div class="col-md-8">
