@@ -4,6 +4,7 @@ https://youtu.be/Sa_kQheCnds
 Bootstrap:
 https://getbootstrap.com/docs/4.1/getting-started/introduction/
 
+
 Snippets:
 https://github.com/CoremayMSchafer/code_snippets/tree/master/Django_Blog/snippets
 
